@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@create-figma-plugin/ui": "^1.8.4",
+    "@create-figma-plugin/utilities": "^1.8.4",
+    "preact": "^10",
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {
+    "@create-figma-plugin/build": "^1.8.4",
+    "@create-figma-plugin/tsconfig": "^1.8.4",
+    "@figma/plugin-typings": "1.42.1",
+    "@types/react": "^16",
+    "react": "^16",
+    "typescript": "^4"
+  },
+  "scripts": {
+    "build": "build-figma-plugin --typecheck --minify",
+    "watch": "build-figma-plugin --typecheck --watch"
+  },
+  "figma-plugin": {
+    "editorType": [
+      "figma"
+    ],
+    "id": "react-editor",
+    "name": "React Editor",
+    "main": "src/main.ts",
+    "ui": "src/ui.tsx"
+  }
+}
