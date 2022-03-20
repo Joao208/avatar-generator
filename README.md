@@ -1,9 +1,9 @@
-# Avatar Generator
+<img src="images/logo.svg?raw=true" alt="Logo" style="border-radius:100px;" height="80px">
 
-## Prints
+# [Avatar Generator](https://www.figma.com/community/plugin/1087220559503205766/Avatar-Generator)
 
-![Print1](images/print1.png?raw=true "Print1")
-![Print2](images/print2.png?raw=true "Print2")
+
+![Thumbnail](images/thumb.png?raw=true "Thumbnail")
 
 ## Development guide
 
