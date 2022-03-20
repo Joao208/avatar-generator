@@ -1,4 +1,4 @@
-<img src="images/logo.svg?raw=true" alt="Logo" style="border-radius:100px;" height="80px">
+<img src="images/logo.svg?raw=true" alt="Logo" style="border-radius:25%;" height="80px">
 
 # [Avatar Generator](https://www.figma.com/community/plugin/1087220559503205766/Avatar-Generator)
 
