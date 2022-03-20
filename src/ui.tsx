@@ -46,7 +46,7 @@ function Plugin() {
 
     const { data } = await axios.default({
       url: `https://avatars.dicebear.com/api/${dropDownValue || 'pixel-art'}/${
-        event.timeStamp
+        event.timeStamp + count
       }.svg?size=${size || 80}`,
       method: 'GET',
     })
